@@ -1,0 +1,15 @@
+echo " "
+INSFOLDER=$HOME/.qds
+UTLPKG=qds_render
+echo "Deleting old files..."
+rm -vf $HOME/.qds/$UTLPKG.py
+rm -vf $HOME/bin/sh/$UTLPKG
+echo "Generating relative folder..."
+mkdir -vp $HOME/bin/sh
+mkdir -vp $INSFOLDER
+echo "Installing files..."
+cp -v *.py $INSFOLDER
+cp -v $UTLPKG $HOME/bin/sh/$UTLPKG
+echo "Changing permission..."
+chmod -v 755 $HOME/bin/sh/$UTLPKG
+echo " "
