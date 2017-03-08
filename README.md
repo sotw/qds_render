@@ -45,7 +45,7 @@ from anywhere.
 
 So he/her can put all image file in a folder and use this utility to see the result.
 
-qds_loader_stl will be replaced by this one and if there will be another interesting 3d format I will extend this python tool.
+qds_loader_stl will be replaced by this one and if another interesting 3d format happened. I will extend this python tool.
 
 #### First sample : A brain skull (stl)
 
